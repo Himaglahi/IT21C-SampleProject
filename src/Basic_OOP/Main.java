@@ -9,10 +9,15 @@ package Basic_OOP;
  * @author PC
  */
 public class Main {
-    
-    public static void main(String[] args) {
-        System.out.println("Basic_OOP");
+
+        public static void main(String[] args) {
+       Animal animal = new Animal("COW",5000.00);
+       
+       animal.showFoodName();
+       animal.showFoodPrice();
     }
+    
+    
     
     
 }
